@@ -1,0 +1,194 @@
+body{
+    font-size:16px;
+    color:black;
+    background-color:plum;
+    font-family: 'Oxygen', sans-serif;
+}
+#header-nav {
+    background-color:palevioletred;
+    border-radius:0;
+    border: 0;
+}
+#logo-img{
+    background-image: url("logo.png");
+    background-repeat: no-repeat;
+    width:150px;
+    height:150px;
+    margin: 10px 15px 10px 0;
+}
+.navbar-brand h1{
+    padding: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 0.75;  /* sets line of a box */
+}
+a{
+    text-decoration: none !important ;
+  }
+  a:hover a:active{
+    text-decoration: none;
+  }
+  #nav-list{
+    margin-top:10px;
+  }
+  #nav-list a{
+    color:black;
+  }
+ /* #phone div{
+    color: black;
+    text-align: right;
+    padding-right: 15px;
+  } */
+  .navbar-header button.navbar-toggler{
+    clear: both;
+    margin-top: -30px;
+  }
+@media(max-width:767px){
+    .navbar-brand h1{
+        padding-top: 10px;
+        font-size: 0.75em;
+        width:100%;
+    }
+    .navbar-brand span{
+      font-size: 0.65em;
+  }
+  }
+@media(min-width:200px) and(max-width:766px){
+      .navbar-brand h1{
+          padding-top: 10px;
+          font-size: 0.55em;
+          width:100%;
+      }
+    .navbar-brand span{
+        font-size: 0.45em;
+    }
+}
+.jumbotron{
+  object-fit: cover;
+}
+#menu-tile,#specials-tile,#map-tile{
+  height:250px;
+  width: 100%;
+  margin-bottom: 10px;
+  position: relative;
+  border: 2px solid black;
+  overflow:hidden;
+}
+#menu-tile:hover,#specials-tile:hover,#map-tile:hover{
+  box-shadow: 0 1px 5px 1px pink;
+}
+#menu-tile{
+  background-image: url(../css/food.avif);
+  background-repeat:no-repeat;
+  background-position: center;
+}
+#specials-tile{
+  background-image: url(../css/dessert.avif);
+  background-repeat:no-repeat;
+  background-position: center;
+}
+#menu-tile span,#specials-tile span, #map-tile span{
+  position: absolute;
+  bottom:0;
+  right:0;
+  width:100%;
+  text-align:center;
+  font-size:1.5em;
+  text-transform: uppercase;
+  background-color: palevioletred;
+  opacity: 0.8;
+  color:black;
+
+
+}
+.panel-footer{
+  margin-top:30px;
+  padding-top:35px;
+  padding-bottom:30px;
+  background-color: palevioletred;
+  border-top:0;
+
+}
+.panel-footer div.row{
+  margin-bottom: 35px;
+}
+#hours, #address{
+  line-height: 2;
+}
+#Hours > span, #address > span{
+  font-size: 1.3em;
+}
+#address p{
+  color: purple;
+  font-size:0.8 em;
+  line-height: 1.8;
+}
+#testimonials p:nth-child(2){
+  margin-top:25px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+  border: 1px solid plum;
+  padding: 8px;
+  text-align: left;
+}
+h1{
+  size: 0.5em;
+}
+#rout{
+  color:purple;
+}
+.category-tile{
+  position:relative;
+  border: 2px solid black;
+  overflow:hidden;
+  width:200px;
+  height:200px;
+  margin: 0 auto 15px;
+}
+.category-tile span{
+  position:absolute;
+  bottom:0;
+  right:0;
+  width:100%;
+  text-align:center;
+  font-size:1.5em;
+  text-transform:uppercase;
+  background-color:palevioletred;
+  color: black;
+  opacity:0.8;
+}
+.category-tile:hover{
+  box-shadow:0 1px 5px 1px #cccccc;
+}
+#menu-categories-title + div{
+  margin-bottom: 50px;
+}
+.dcategory-tile{
+  position:relative;
+  border: 2px solid black;
+  overflow:hidden;
+  width:200px;
+  height:200px;
+  margin: 0 auto 15px;
+}
+.dcategory-tile span{
+  position:absolute;
+  bottom:0;
+  right:0;
+  width:100%;
+  text-align:center;
+  font-size:1.5em;
+  text-transform:uppercase;
+  background-color:palevioletred;
+  color: black;
+  opacity:0.8;
+}
